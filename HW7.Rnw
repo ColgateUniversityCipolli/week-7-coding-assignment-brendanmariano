@@ -22,7 +22,9 @@
     $P(X \neq x)$, $P(X<x)$, $P(X \leq x)$, $P(X > x)$, and $P(X \geq x).$ Enable the user to specify the rate parameter $\lambda$.
 <<size="scriptsize">>=
 pois.prob <- function(x, size, prob, type="<="){
+  #P(X = x), P(X ̸= x), P(X < x), P(X ≤ x), P(X > x), and P (X ≥ x)
   # Use dpois and ppois to conditionally return the correct probability
+  
 }
 @
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
